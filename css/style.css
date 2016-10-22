@@ -234,12 +234,19 @@ h1, h2, h3, h4, h5, h6 {
   }
 }
 
+/*Align profile picture center, change size*/
 figure {
   margin-bottom: 1.5em;
 }
 
+figure img{
+    max-height:300px;
+    float: none;
+}
+
+/*Adjust date size and alignment*/
 .fh5co-counter .fh5co-number {
-  font-size: 75px;
+  font-size: 50px;
   color: #17e7a4;
   font-weight: 400;
   margin: 0;

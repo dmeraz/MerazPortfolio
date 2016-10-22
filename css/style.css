@@ -229,12 +229,13 @@ h1, h2, h3, h4, h5, h6 {
   position: relative;
 }
 /*Adjust alignment of Xena quote*/
-.fh5co-tab-wrap .fh5co-tab-content .fh5co-content-inner h2 {
+/*Modifies other h3s, space between too large, possibly cutting text*/
+/*.fh5co-tab-wrap .fh5co-tab-content .fh5co-content-inner h2 {
     text-align:center;
     }
 .fh5co-tab-wrap .fh5co-tab-content .fh5co-content-inner h3 {
     text-align:right;
-    }
+    }*/
 @media screen and (max-width: 768px) {
   .fh5co-tab-wrap .fh5co-tab-content .fh5co-content-inner {
     padding: 4em .5em 5em .5em;

@@ -100,8 +100,6 @@
 				<div class="fh5co-content-inner">
 					<div class="row">
 						<div class="col-md-12">
-                            <h1>Darín Meraz</h1>
-							<p>Software Engineer</p>
 
                             <!-- Add animated images -->
                             <!-- Headline Carosel -->
@@ -109,28 +107,29 @@
                                 <!-- Indicators -->
                                 <ol class="carousel-indicators">
                                     <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-                                    @foreach (var item in Model)
-                                    {
-                                    <li data-target="#myCarousel" data-slide-to="i" , i++></li>
-                                    }
+                                    <li data-target="#myCarousel" data-slide-to="1"></li>
+                                    <li data-target="#myCarousel" data-slide-to="2"></li>
                                 </ol>
 
                                 <!-- Wrapper for slides -->
                                 <div class="carousel-inner" role="listbox">
                                     <div class="item active">
                                         <a class="thumbnail">
-                                            <img src="~/Content/accessories-active.png" style="height:350px;" alt="various accessories">
+                                            <img src="images/virtual-pet-code.png" alt="virtual pet code"/>
                                         </a>
                                     </div>
 
-                                    @foreach (var item in Model)
-                                    {
                                     <div class="item">
-                                        <a href="@Url.Action(" Details", new { id=item.AccessoryID })" class="thumbnail">
-                                            <img src="@Url.Content(@item.Photo)" style="max-height:350px;" alt="@item.Name" />
+                                        <a href="" class="thumbnail">
+                                            <img src="images/fortune-teller-code.png" alt="fortune teller code" />
                                         </a>
                                     </div>
-                                    }
+
+                                    <div class="item">
+                                        <a href="" class="thumbnail">
+                                            <img src="images/wardrobe-code.png" alt="wardrobe code" />
+                                        </a>
+                                    </div>
 
                                 </div>
 

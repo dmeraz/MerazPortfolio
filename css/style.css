@@ -378,6 +378,12 @@ figure img{
   text-transform: uppercase;
 }
 
+/*Portfolio Image Styling*/
+/*not working, moved inline*/
+/*#code1 {
+    max-width:inherit;
+}*/
+
 .chart {
   width: 160px;
   height: 160px;
